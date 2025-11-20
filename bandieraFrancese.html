@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <title>Bandiera Francese</title>
+    </head>
+    <body>
+        <!--Ho scelto la bandiera di: Francia-->
+        <h1 id="h1">Bandiera Personalizzata</h1>
+        <h2 id="h2"></h2>
+        <p id="p1">La torre eifell</p>
+        <p id="p2">si eleva di</p>
+        <p id="p3">diversi metri</p>
+        <p id="p4">da diversi anni</p>
+        <br>
+        <div id="info">
+
+        </div>
+        <script>
+            document.querySelector("body").style.backgroundColor = "lightblue";
+            document.getElementById("h2").innerText = "I colori della bandiera Francese";
+            const p1 = document.getElementById("p1");
+            p1.style.backgroundColor = "lightgray";
+            p1.style.color = "blue";
+            const p2 = document.getElementById("p2");
+            p2.style.backgroundColor = "pink";
+            p2.style.color = "white";
+            const p3 = document.getElementById("p3");
+            p3.style.backgroundColor = "yellow";
+            p3.style.color = "red";
+            const p4 = document.getElementById("p4");
+            p4.style.backgroundColor = "cyan";
+            p4.style.color = "white";
+            const divInfo = document.getElementById("info");
+            divInfo.innerText = "Ho scelto questa bandiera perche'...";
+            divInfo.style.backgroundColor = "gold";
+            divInfo.style.color = "red";
+        </script>
+    </body>
+</html>
